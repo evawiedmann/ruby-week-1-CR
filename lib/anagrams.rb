@@ -5,7 +5,9 @@ class Anagrams
   end
 
   def compare()
+    compare_word = @compare_word.downcase()
     compare_array = @compare_word.chars()
+    letters = @words.downcase()
     letters = @word.chars()
     letters.each do |letter|
       if compare_array.include?(letter)
@@ -14,3 +16,4 @@ class Anagrams
       end
     end
   end
+# You need to input actual words!
