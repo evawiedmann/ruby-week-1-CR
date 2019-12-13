@@ -1,6 +1,6 @@
 require('rspec')
-require('project')
+require('anagrams')
 
-describe ('#project') do
-  
+describe ('#anagrams') do
+it ''
 end
