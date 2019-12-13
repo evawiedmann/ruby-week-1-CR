@@ -9,11 +9,13 @@ class Anagrams
     compare_array = @compare_word.chars()
     letters = @words.downcase()
     letters = @word.chars()
-    letters.each do |letter|
-      if compare_array.include?(letter)
+    if @word.include? 'a' | 'e' | 'i' | 'o' | 'u' | 'y'
+
+      letters.each do |letter|
+        if compare_array.include?(letter)
           puts 'These words are anagrams'
         end
       end
-    end
+    puts 'You need to input actual words!'
   end
-# You need to input actual words!
+  # You need to input actual words!
