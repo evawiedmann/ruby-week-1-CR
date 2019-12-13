@@ -3,9 +3,7 @@ class Word
     @word = word
   end
 
-  def score()
+  def compare()
 
     end
-    return score
   end
-end
