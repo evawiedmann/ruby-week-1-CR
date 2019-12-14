@@ -6,8 +6,10 @@ class Anagrams
 
   def compare()
     compare_word = @compare_word.downcase()
+    compare_word.gsub(/[^0-9a-z]/i, ‘’)
     compare_array = @compare_word.chars()
     letters = @words.downcase()
+    letters.gsub(/[^0-9a-z]/i, ‘’)
     letters = @word.chars()
     if @word.include? 'a' | 'e' | 'i' | 'o' | 'u' | 'y'
 
