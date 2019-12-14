@@ -1,4 +1,4 @@
-# Doctor Lookup
+# Anagrams
 
 ## Created by Eva Wiedmann on 13 December 2019
 
