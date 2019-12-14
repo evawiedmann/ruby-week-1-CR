@@ -12,6 +12,9 @@ describe ('#anagrams') do
   end
   it('returns an error message if the input has no vowels') do
     word = Word.new('tt','at')
-    expect(word.compare()).to(eq('You need to input actual words!')
+    expect(word.compare().to(eq('You need to input actual words!')
 end
+  it('returns if two words are antigrams') do
+    word = Word.new('at', 'by')
+    expect(word.compare()).to(eq(true))
 end
