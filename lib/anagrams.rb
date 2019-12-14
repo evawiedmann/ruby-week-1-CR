@@ -14,8 +14,9 @@ class Anagrams
       letters.each do |letter|
         if compare_array.include?(letter)
           puts 'These words are anagrams'
+        elsif compare_array.exclude?(letter)
+          puts 'These words are antigrams'
         end
       end
-    puts 'You need to input actual words!'
-  end
-  # You need to input actual words!
+      puts 'You need to input actual words!'
+    end
