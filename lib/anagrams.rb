@@ -6,12 +6,12 @@ class Word
 
   def compare()
     compare_word = @compare_word.downcase()
-    # compare_word.gsub(/[^0-9a-z]/i, ‘’)
+    compare_word.gsub(/[^0-9a-z]/i, ‘’)
     compare_array = @compare_word.chars()
     letters = @word.downcase()
-    # letters.gsub(/[^0-9a-z]/i, ‘’)
+    letters.gsub(/[^0-9a-z]/i, ‘’)
     letters = @word.chars()
-    # if @word.include? 'a' || 'e' || 'i' || 'o' || 'u' || 'y'
+    if @word.include? 'a' || 'e' || 'i' || 'o' || 'u' || 'y'
 
       letters.each do |letter|
         if compare_array.include?(letter)
@@ -23,4 +23,4 @@ class Word
       puts 'You need to input actual words!'
     end
   end
-# end
+end
