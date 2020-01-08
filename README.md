@@ -1,20 +1,20 @@
-# Anagrams
+# Anagrams and Antigrams
 
-## Created by Eva Wiedmann on 13 December 2019
+## Created by Eva Wiedmann on 7 January 2020
 
 ### Project Description
 
-* #### The program returns
-  - Example Input: ''
-  - Example Output: ''
+* #### The program recognizes if two words are anagrams.
+- Example Inputs: 'ta', 'at'
+- Example Output: 'These words are anagrams'
 
-* #### The program returns
-  - Example Input: ''
-  - Example Output: ''
+* #### The program recognizes if two words are antigrams.
+- Example Input: 'at', 'by'
+- Example Output: 'These words are antigrams'
 
-* ####
-  - Example Input: ''
-  - Example Output: ''
+* #### The program returns an error message if an input has no vowels.
+- Example Input: 'tt', 'at'
+- Example Output: 'You need to input actual words!'
 
 ### Technologies Used
 Ruby, Markdown.
@@ -22,7 +22,6 @@ Ruby, Markdown.
 ### Project Setup instructions
 
 If something goes awry, please contact evawiedmann@gmail.com and I will do my best to troubleshoot for you.
-
 
 ### Known Issues
 * No known issues.
